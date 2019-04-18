@@ -1,0 +1,16 @@
+$topposition: 50%;
+$leftposition: 50%;
+
+.centered {
+  position: absolute;
+  top: $topposition;
+  left: $leftposition;
+  transform: translate(-50%, -50%);
+}
+
+.centeredext {
+  position: absolute;
+  top: 65%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}

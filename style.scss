@@ -1,0 +1,26 @@
+// import the partials that I need into this stylesheet
+
+
+
+// Bootstrap essentials
+
+@import "bootstrap/scss/functions";
+
+@import "bootstrap/scss/variables";
+
+@import "bootstrap/scss/mixins";
+
+
+
+
+
+
+// My styles
+
+@import "variables";
+@import "function";
+@import "text";
+@import "mixin";
+@import "mixinnav";
+@import "facephoto";
+@import "position";

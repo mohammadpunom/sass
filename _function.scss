@@ -1,0 +1,13 @@
+.screen1
+{
+  // background-color: $mycolor
+   background-color: mix($blue,$green,48%);
+
+}
+.abc {
+    height: 1100px;
+    width: 2000px;
+    //background-color: mix($blue,$green,48%);
+
+    background: linear-gradient(to bottom, #808000 0%, #ffffff 100%);
+}

@@ -1,0 +1,40 @@
+$navfntw: bold;
+$navfnts: 1.04rem;
+$navlines: 1.5;
+
+.myFontStyle
+{
+
+  font-family: $navfnt;
+  font-weight: $navfntw;
+  font-size: $navfnts;
+  line-height: $navlines;
+}
+
+@mixin myheadline
+{
+  font-family: $mytext;
+  font-weight: $navfntw;
+  font-size: $brnfntsiz;
+  color: #023e02;
+  text-shadow: 1px 2px 2px #80ff00;
+}
+.myFontStyleExt
+{
+
+  @include myheadline;
+}
+
+@mixin mynavbarmenu
+{
+  font-family: $mytext;
+  font-weight: $navfntw;
+  font-size: 1rem;
+  color: #023002;
+  text-shadow: 1px 2px 2px #ffffff;
+}
+.mynavbarmenufont
+{
+
+  @include mynavbarmenu;
+}
