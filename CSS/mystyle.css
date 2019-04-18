@@ -1,0 +1,27 @@
+.container
+{
+  display: flex;
+}
+
+.mainitem
+{
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.co-mainitem
+{
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.subitem
+{
+  font-family: Montserrat;
+  font-weight: 2rem;
+
+}

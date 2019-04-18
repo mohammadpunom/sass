@@ -1,0 +1,67 @@
+.screen1 {
+  background-color: #21ce95; }
+
+.abc {
+  height: 1100px;
+  width: 2000px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#808000), to(#ffffff));
+  background: -webkit-linear-gradient(top, #808000 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #808000 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #808000 0%, #ffffff 100%); }
+
+.mtext {
+  font-family: Ubuntu;
+  font-size: 16px; }
+
+.mtextext {
+  font-family: Ubuntu;
+  font-size: 20px;
+  line-height: 2.5; }
+
+.brandFont {
+  font-family: Monofett;
+  font-size: 2rem;
+  text-shadow: 1px 2px 2px #80ff00; }
+
+.myFontStyle {
+  font-family: Indie Flower;
+  font-weight: bold;
+  font-size: 1.04rem;
+  line-height: 1.5; }
+
+.myFontStyleExt {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #023e02;
+  text-shadow: 1px 2px 2px #80ff00; }
+
+.mynavbarmenufont {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #023002;
+  text-shadow: 1px 2px 2px #ffffff; }
+
+.myface {
+  padding-top: 5px;
+  padding-left: 50px; }
+
+.myfaceboder {
+  border-radius: 50%; }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.centeredext {
+  position: absolute;
+  top: 65%;
+  left: 65%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
